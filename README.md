@@ -23,8 +23,11 @@ C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp
 
 # 取消：
 方法一 双击 kill.vbs
+
 方法二 任务管理器中，杀掉wscript.exe任务
+
 方法三 除去 启动 文件夹下的该文件，重启电脑
+
 方法四  cmd中执行 taskkill /im:wscript.exe /f /t 可以除去今天的提醒  但是开机还有，要手动启动中去掉
 
 
